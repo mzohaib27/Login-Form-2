@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ body{
+   background: #fff;
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+  align-items: center;
+  font-family:'poppins',sans-serif;
+ }
+
+ .container{
+  width: 400px;
+  border-radius: 20px;
+ }
+
+ .card{
+  border-radius: 20px;
+  background-image: linear-gradient(to right,#0084ff,#00f2ff) ;
+  height: 600px;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0px 5px 8px #414141;
+  box-sizing: border-box;
+  z-index: 0;
+ }
+
+ .circle{
+  position: absolute;
+  bottom: -230px;
+  left: 50%;
+  background: #fff;
+  transform: translate(-50% ,-50%);
+  clip-path: circle(50%);
+  height: 700px;
+  width: 700px;
+  overflow:hidden;
+  z-index: -1;
+ }
+.myHead{
+  margin-top: 32px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  background-image:linear-gradient(to right,#0084ff,#00f2ff) ;
+  font-size: 32px;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+ } 
+
+ .far{
+  font-size: 46px;
+ }
+
+ .fas{
+  position: relative;
+  left: -87px;
+  top: 30px;
+  display: block;
+  color: rgb(255,255, 255);
+ }
+
+ .button{
+  width: 230px;
+  background-image:linear-gradient(to right,#0084ff,#00f2ff) ;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 25px;
+ font-weight: 700;
+ margin: 16px auto;
+ }
+
+ .check_1{
+  font-size: 12px;
+  margin: 15px auto;
+  cursor: pointer;
+  font-weight: 500;
+ }
+
+ .myInput{
+  width: 220px;
+  padding: 10px;
+  padding-left: 40px;
+  border-radius: 26px;
+  background-image:linear-gradient(to right,#0084ff,#00f2ff) ;
+  color: #fff;
+  border: none;
+  display: block;
+ }
+
+ .myInput:focus{
+  border: none;
+  outline: none;
+ 
+
+ }
+
+ .myInput::placeholder{
+  color: #fff;
+  opacity: 0.6;
+ }
+
+ 
